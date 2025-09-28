@@ -1,7 +1,8 @@
 # Node dependencies
 /node_modules
-frontend/node_modules
+
 src/utils/solid-topic-471317-f9-348069fc7806.json
+/frontend
 #env
 /.env
 .vscode

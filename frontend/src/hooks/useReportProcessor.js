@@ -59,7 +59,7 @@ export const useReportProcessor = () => {
             const formData = buildFormData();
             
             await updateProgressState(1); 
-            const response = await fetch('https://ai-powered-medicaltest-report-analyser.onrender.com/api/simplify-report', {
+            const response = await fetch('http://localhost:5500/api/simplify-report', {
                 method: 'POST',
                 body: formData,
             });
